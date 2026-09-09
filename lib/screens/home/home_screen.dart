@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget {
                 trailing: Text(provider.current?.lastUpdated?? ''),
               ),
               ElevatedButton(onPressed: (){
-                provider.getCurrentWeather('Islamabad');
+                // provider.getCurrentWeather('Islamabad');
               }, child: Text('Refresh'))
 
               ],
